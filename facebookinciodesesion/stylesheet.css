@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #eff2f5;
+}
+
+.container {
+    max-width: 980px;
+    margin: 100px auto;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    margin-top:50px;
+    width: 280px;
+}
+
+.colOne {
+    width: 500px;
+    padding-right: 50px;
+}
+
+.colTwo {
+    width: 400px;
+}
+
+form {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0 0 0 /10%), 0 8px 16px rgb(0 0 0 /10%);
+    border-radius: 12px;   
+    text-align:center; 
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 16px 0;
+    border-radius: 12px;
+    border: 1px solid #ddd
+
+}
+
+.iniciar{
+    display: block;
+    width: 100%;
+    background-color: #1877f2;
+    font-size: 20px;
+    font-weight:bold;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    border:none;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.olvidaste {
+    text-decoration:none;
+    color: #1877f2;
+}
+hr {
+    margin: 16px 0;
+    border: 1px solid #ddd
+}
+.nueva {
+    display:block;
+    width:100%;
+    margin: auto;
+    background-color: #42b72a;
+    padding: 16px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    font-size:17px;
+    font-weight: bold;
+}
+
+.colTwo p{
+    font: size 14px;
+    text-align: center;
+    margin-top:28px;
+}
+
+@media screen and (min-width: ) {
+    
+}
